@@ -1,0 +1,17 @@
+{%extends 'base.html'%}
+{%block title%}AICTE DATA{%endblock%}
+
+
+{%block body%}
+<form action="res" method="post">
+{% csrf_token %}
+    <div class="mb-3">
+    
+    <label for="formFile" class="form-label">Default file input example</label>
+    <input class="form-control" type="file" name="file_upload" id="formFile">
+  </div>
+  <div class="col-auto">
+    <button type="submit" class="btn btn-primary mb-3">SUBMIT</button>
+  </div>
+</form>
+{%endblock%}

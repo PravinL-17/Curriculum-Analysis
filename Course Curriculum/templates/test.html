@@ -1,0 +1,49 @@
+{%extends 'base.html'%}
+{%block body%}
+    
+      
+    <form action="result" method="post" id="formclass">
+      {%csrf_token%}
+      <div class="input-group">
+        <span class="input-group-text">College Name</span>
+        <input type="text" class="form-control-sm" id="formGroupExampleInput" placeholder="college name"
+          name="collegename">
+      </div>
+
+      <select name="dropdown">
+        <option selected="selected" disabled>Choose your Branch</option>
+        <option value="10">Computer Science and Engineering</option>
+        <option value="20">Information Techology</option>
+        <option value="30">Mechanical Engineering</option>
+        <option value="40">Civil Engineering</option>
+        <option value="50">Electrical Engineering</option>
+        <option value="50">Electronics Engineering</option>
+      </select>
+      <div class="container">
+        <div class="input-group">
+          <span class="input-group-text">Basic Science Courses</span>
+          <input type="text" class="form-control-sm" id="formGroupExampleInput" placeholder="subject" name="core">
+        </div>
+
+        <div class="input-group">
+          <span class="input-group-text">Engineering Science Courses</span>
+          <input type="text" class="form-control-sm" id="formGroupExampleInput1" placeholder="subject"
+            name="professional">
+        </div>
+        <div class="input-group">
+          <span class="input-group-text">Professional Core Courses</span>
+          <input type="text" class="form-control-sm" id="formGroupExampleInput2" placeholder="subject" name="open">
+        </div>
+        <div class="input-group">
+          <span class="input-group-text">Professional Electives</span>
+          <input type="text" class="form-control-sm" id="formGroupExampleInput2" placeholder="subject" name="pe">
+        </div>
+        <div class="input-group">
+          <span class="input-group-text">Open Electives</span>
+          <input type="text" class="form-control-sm" id="formGroupExampleInput2" placeholder="subject" name="oe">
+        </div>
+
+      </div>
+      <button type="submit" class="btn btn-primary buttonclass">SUBMIT</button>
+    </form>
+{%endblock%}

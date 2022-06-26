@@ -1,0 +1,18 @@
+['Engineering Physics', ' Engineering Mathematics-I', ' Engineering Mechanics', ' Communication Skills', ' Programming for Problem Solving', ' Engineering Chemistry', ' Engineering Mathematics-II', ' Engineering Graphics and CAD', ' Basic Electrical Engineering', 'Arduino Based Systems', ' Life Science', ' Probability and Statistics', ' Discrete Mathematics', ' Data Structures', ' Data Communication', ' Computer Organization and Architecture', ' Software Engineering', ' Applied Mathematics for Computer Science and Engineering', ' Formal Language and Automata Theory', ' Operating Systems', ' Database Engineering', ' Computer Network', ' Compiler Design', ' 
+Design and Analysis of Algorithms', ' Cloud Computing', ' Advanced Database System']
+
+
+
+aicte = ["Data Structure & Algorithms Discrete Mathematics Computer Organization & Architecture  Operating Systems  Design and Analysis of Algorithms Database Management Systems Formal Language & Automata Theory  Object Oriented Programming Complier Design Computer Networks"]
+
+
+
+
+['Engineering Mechanics Lab', ' Workshop Practice', ' Programming for Problem Solving Lab', ' Engineering Physics Lab', ' Engineering Graphics and CAD Lab', ' Basic Electrical Engineering Lab', ' Engineering Chemistry Lab', ' Arduino Based Systems Lab', ' Programming Lab 1', ' Data Structures Lab', ' Computer Organization and Architecture Lab', ' Database Engineering Lab', ' Computer Network Lab', ' Programming Lab 2', ' Presentation and Report Writing', ' Design and Analysis of Algorithms Lab', ' Programming Lab 3', ' Humanities-1: Human Relations at Work', ' Advanced Database System Lab', ' Humanities-2: German Language', ' Cryptography and Network Security Lab', ' Project-1 and Seminar', ' Summer Internship', ' Techno-Socio Outreach']
+
+"Graph Theory software Engineering Embedded Systems Artificial Intellegence Cryptography & network Security Internet of Things Data Analytics Machine Learning"
+
+
+['Data Science using Python', ' Software Engineering and Database Essentials', ' Fundamentals of Internet of Things', ' Artificial Intelligence and Machine Learning', ' Cyber Security', ' Basic Civil Engineering', ' Application of Remote Sensing', ' Physical Geology', ' Diaster Management', ' Management for Engineers', ' Energy Engineering', ' Non-conventional Machining Processes', ' 3D Printing', ' Basics of Automobile Engineering', ' Automobile Engineering', ' Industrial Automation', ' Aerospace Engineering', ' Electrical Machine Technology', ' Signals and Systems', ' Introduction to Electronics system', ' Cyber Physical System', ' Biomedical Engineering']
+
+"Theory of Computation Advanced Computer Architecture Artificial Intelligence Image Processing Soft Skills and Interpersonal Communication Graph Theory Software Engineering Advanced Algorithms Distributed Systems Machine Learning Digital Signal Processing Human Resource Development and Organizational Behavior Parallel and Distributed Algorithms Embedded Systems Data Mining Cloud Computing Cyber Law and Ethics Computational Complexity Advanced Operating Systems Soft Computing Human Computer Interaction Computational Geometry Low Power Circuits and Systems Speech and Natural Language Processing Electronic Design Automation Comparative Study Queuing Theory and Modeling Fault Tolerant Computing  Data Analytics Computer Graphics Indian Music System"

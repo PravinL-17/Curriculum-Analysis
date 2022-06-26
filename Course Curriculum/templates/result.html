@@ -1,0 +1,68 @@
+{%extends 'base.html'%}
+
+{%block body%}
+<div class="restitle">
+  Sucess, Your data has been analyzed
+  <div class="resinfo">
+    
+    <div class="card">
+      <div class="card-header">
+        RATING:
+      </div>
+      <div class="card-body">
+        
+      </div>
+    </div>
+  </div>
+
+</div>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Field</th>
+      <th scope="col">Score</th>
+      <th scope="col">AICTE SUBJECT COUNT</th>
+      <th scope="col">YOUR SUBJECT COUNT</th>
+      <th scope="col">RATING</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Basic Science Courses</th>
+      <td>{{ans1}}</td>
+      <td>{{aictebs|length}}</td>
+      <td>{{bscnt}}</td>
+      <td>{{r1}}</td>
+    </tr>
+    <tr>
+      <th scope="row">Engineering Science Courses</th>
+      <td>{{ans2}}</td>
+      <td>{{aictees|length}}</td>
+      <td>{{escnt}}</td>
+      <td>{{r2}}</td>
+    </tr>
+    <tr>
+      <th scope="row">Professional Core</th>
+      <td>{{ans3}}</td>
+      <td>{{pccaicte|length}}</td>
+      <td>{{pcccnt}}</td>
+      <td>{{r3}}</td>
+    </tr>
+    <tr>
+      <th scope="row">Professional Electives</th>
+      <td>{{ans4}}</td>
+      <td>{{peaicte|length}}</td>
+      <td>{{pecnt}}</td>
+      <td>{{r3}}</td>
+    </tr>
+    <tr>
+      <th scope="row">Open Electives</th>
+      <td>{{ans5}}</td>
+      <td>{{oeaicte|length}}</td>
+      <td>{{oecnt}}</td>
+      <td>{{r5}}</td>
+    </tr>
+  </tbody>
+</table>
+
+{%endblock%}

@@ -1,0 +1,156 @@
+aictebs1= ["Physics","Mathematics","Mathematics","Chemistry","Biology ","Mathematics","Environmental Sciences ","Probability and Statistics ","Discrete Mathematics"] 
+aictees1= ["Electrical","Graphics","Programming","Workshop","Analog Electronic Circuits","Electronics","Signals and Systems","Materials Science ","Mechanics","Electrical Engineering Laboratory ","Electronics","Electronics Engineering Laboratory","Programming ","Programming Laboratory","Simulation Laboratory ","Thermodynamics ","Mechanics","Mechanics ","Solid Mechanics","Materials"]
+pccaicte1=["Data Structure","Discrete Mathematics","Computer Organization and Architecture","Operating System","Algorithm","Database Management System","Formal Language and Automata Theory","Object Oriented Programming","Complier Design","Computer Networks","IT Workshop","Digital Systems","Software Engineering ","Cryptography","Object Oriented Analysis and Design ","Distributed","Graph Theory ","Artificial Intelligence ","Computer Graphics","Simulation and Modeling ","Web Programming ","Embedded Computing System","Software Testing","Data Mining","Advanced Computer Architecture","Approximation of Algorithms","Mobile Computing","Pattern Recognition","Information Retrieval","Software Architecture","VLSI Design and Algorithms","Soft Computing","Game Theory","Combinational Optimization","Computer Vision","Software Project Management","Human Computer Interface","Cloud Computing","Web Service","Bioinformatics","Script Programming","Multimedia Computing"]
+peaicte1=["Graph Theory","Software Engineering","Embedded Systems","Artificial Intelligence","Cryptography and Network Security","Internet of Things","Data Analytics","Machine Learning"]
+oeaicte1=["Database Management Systems","Software Engineering ","Design and Analysis of Algorithms","Disaster Management","Project Management","Engineering Risk–Benefit Analysis","Infrastructure Systems Planning","Sustainable Development","Innovation","Enterpreneurship","Technology","Knowledge Management"] 
+]
+
+
+
+
+hs
+English
+
+
+
+
+
+
+
+
+
+bs
+
+Physics
+Mathematics II
+Mathematics I
+Chemistry I
+Biology 
+Mathematics III
+Environmental Sciences 
+Probability and Statistics 
+Discrete Mathematics 
+
+
+
+
+
+
+es
+Basic Electrical Engineering
+Engineering Graphics and Design
+Programming for Problem Solving
+Workshop/Manufacturing Practices
+Analog Electronic Circuits
+Digital Electronics
+Signals and Systems
+Engineering Graphics 
+Engineering Workshop 
+Materials Science 
+Basic Engineering Mechanics
+Basic Electrical Engineering 
+Basic Electrical Engineering Laboratory 
+Basic Electronics Engineering 
+Basic Electronics EngineeringLaboratory
+Computer Programming 
+Computer Programming Laboratory 0
+Basic Simulation Laboratory 
+Bassic Thermodynamics 
+Solid Mechanics and Fluid Mechanics 
+Solid Mechanics and Fluid Mechanics Laboratory
+Engineering Mechanics 
+Solid Mechanics 
+Thermodynamics 
+Engineering Materials 
+
+pcc
+Data Structure and Algorithms
+Discrete Mathematics
+Computer Organization andArchitecture
+Operating Systems
+Design and Analysis of Algorithms
+Database Management Systems
+Formal Language and Automata Theory
+Object Oriented Programming
+Complier Design
+Computer Networks
+IT Workshop
+Data Structures and Algorithms
+Computer Organization and Design 
+Discrete Mathematics
+Digital Systems 
+Operating Systems
+Formal Languages and Automation Theory
+Design and Analysis of Algorithms
+Computer Networks 
+Data Base Management Systems 
+Software Engineering 
+Compiler Design 
+Cryptography and Information Security 
+Object Oriented Analysis and Design 
+Distributed Computing Systems 
+Graph Theory 
+Artificial Intelligence 
+Computer Graphics and Visualization 
+Simulation and Modeling 
+Internet Web Programming 
+Embedded Computing Systems 
+Software Testing 
+Data Mining 
+Advanced Computer Architecture 
+Approximation of Algorithms 
+Mobile Computing 
+Pattern Recognition 
+Information Retrieval 
+Software Architecture 
+VLSI Design and Algorithms 
+Soft Computing 
+Game Theory 
+Combinational Optimization 
+Computer Vision 
+Software Project Management 
+Human Computer Interface 
+Cloud Computing 
+Web Service and Service Oriented Architecture
+Bioinformatics 
+Script Programming 
+Multimedia Computing 
+Project 1
+Project 2
+
+
+
+
+
+
+
+
+
+professional elective
+Graph Theory
+Software Engineering
+Embedded Systems
+Artificial Intelligence
+Cryptography and Network Security
+Internet of Things
+Data Analytics
+Machine Learning
+
+
+
+
+
+
+open elective
+
+Database Management Systems 
+Software Engineering 
+Design and Analysis of Algorithms 
+Disaster Management
+Project Management 
+Engineering Risk–Benefit Analysis 
+Infrastructure Systems Planning 
+Planning for Sustainable Development 
+Managing Innovation and Enterpreneurship
+Global Strategy and Technology
+Knowledge Management 

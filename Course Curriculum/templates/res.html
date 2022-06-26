@@ -1,0 +1,197 @@
+{%extends 'base.html'%}
+{%block css%}
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital@1&display=swap" rel="stylesheet">
+<style>
+  .nfl{
+    display: flex;
+    flex-direction: column;
+  }
+  .nflsub {
+    display: inline-grid;
+    width: 20%;
+  }
+  @media (max-width:550px) {
+  .nflsub{
+    display: inline;
+  }
+  .txt{
+    font-family: 'Arimo', sans-serif;
+  }
+  .rating{
+    font-size: 15px;
+  }
+}
+</style>
+{%endblock%}
+{%block body%}
+<div class="txt" style="font-size: 40px; align-items: center; text-align: center;">
+  Success, Your data has been analyzed
+  <div class="resinfo">
+
+    <div class="card">
+      <div class="card-header rating" style="font-size: 50px; align-items: center; text-align: center;">
+        RATING:{{rating}}
+      </div>
+      <div class="card-body">
+
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="resbox">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Field</th>
+        <th scope="col">Score</th>
+        <th scope="col">AICTE SUBJECT COUNT</th>
+        <th scope="col">MATCHED SUBJECT COUNT</th>
+        <th scope="col">RATING</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Basic Science Courses</th>
+        <td>{{p1}}</td>
+        <td>{{aictebs1|length}}</td>
+        <td>{{l1|length}}</td>
+        <td>{{r1}}</td>
+      </tr>
+      <tr>
+        <th scope="row">Engineering Science Courses</th>
+        <td>{{p2}}</td>
+        <td>{{aictees1|length}}</td>
+        <td>{{l2|length}}</td>
+        <td>{{r2}}</td>
+      </tr>
+      <tr>
+        <th scope="row">Professional Core</th>
+        <td>{{p3}}</td>
+        <td>{{pccaicte1|length}}</td>
+        <td>{{l3|length}}</td>
+        <td>{{r3}}</td>
+      </tr>
+      <tr>
+        <th scope="row">Professional Electives</th>
+        <td>{{p4}}</td>
+        <td>{{peaicte1|length}}</td>
+        <td>{{l4|length}}</td>
+        <td>{{r4}}</td>
+      </tr>
+      <tr>
+        <th scope="row">Open Electives</th>
+        <td>{{p5}}</td>
+        <td>{{oeaicte1|length}}</td>
+        <td>{{l5|length}}</td>
+        <td>{{r5}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+  <ul>
+    
+
+    
+<div class="nlfmain" style="align-items: center; text-align: center; padding: 0px;">
+  <div class="txt" style="font-size: 40px;">
+    Suggested Courses
+  </div>
+<div class="nfl" style="padding: 0px;">
+  <div class="nflsub" style="display: inline-grid; width:18%;" >
+    <button type="button" class="btn btn-primary bbn" onclick="fun1()">Basic Science</button>
+    <ul id="sub1">
+      {%for i in notfoundlistbs %}
+      <li>
+        {{i}}
+      </li>
+      {%endfor%}
+    </ul>
+  </div>
+  <div class="nflsub" style="display: inline-grid; width: 18%;">
+    <button type="button" class="btn btn-primary bbn" onclick="fun2()">Engineering Science</button>
+    <ul id="sub2">
+      {%for i in notfoundlistes %}
+      <li>
+        {{i}}
+      </li>
+      {%endfor%}
+    </ul>
+  </div>
+  <div class="nflsub" style="display: inline-grid; width: 18%;">
+    <button type="button" class="btn btn-primary bbn" onclick="fun3()">Professional core courses</button>
+    <ul id="sub3">
+      {%for i in notfoundlistpcc %}
+      <li>
+        {{i}}
+      </li>
+      {%endfor%}
+    </ul>
+  </div>
+  <div class="nflsub" style="display: inline-grid; width: 18%;">
+    <button type="button" class="btn btn-primary bbn" onclick="fun4()">Professional Electives</button>
+    <ul id="sub4">
+      {%for i in notfoundlistpe %}
+      <li>
+        {{i}}
+      </li>
+      {%endfor%}
+    </ul>
+  </div>
+  <div class="nflsub" style="display: inline-grid; width: 18%;"> 
+    <button type="button" class="btn btn-primary bbn" onclick="fun5()">Open Electives</button>
+    <ul id="sub5">
+      {%for i in notfoundlistoe %}
+      <li>
+        {{i}}
+      </li>
+      {%endfor%}
+    </ul>
+  </div>
+
+</div>
+</div>
+
+<script>
+  function fun1() {
+    var x = document.getElementById("sub1");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function fun2() {
+    var x = document.getElementById("sub2");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function fun3() {
+    var x = document.getElementById("sub3");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function fun4() {
+    var x = document.getElementById("sub4");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function fun5() {
+    var x = document.getElementById("sub5");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+</script>
+{%endblock%}
